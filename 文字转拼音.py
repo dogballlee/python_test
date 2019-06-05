@@ -17,4 +17,5 @@ for i in l:
 
 result = pd.Series(pinyin_list)
 print(result)
+result.to_csv(r'C:\Users\lilinyang\Desktop\pinyin_1.csv')
 
